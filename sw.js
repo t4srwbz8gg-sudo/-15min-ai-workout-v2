@@ -1,4 +1,4 @@
-const C='ai15-v2-4',A=['./manifest.webmanifest','./icon.svg'];
+const C='ai15-v2-6',A=['./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(C).then(c=>c.addAll(A)));
   self.skipWaiting();
